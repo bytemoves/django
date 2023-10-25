@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="icon" href="{% static 'images/gojo.jpeg' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<button type="button" class="btn btn-danger"><a href="{% url 'about' %}">About US</a></button>
+<button type="button" class="btn btn-danger"><a href="{% url 'gallery' %}">Gallery</a></button>
+
+<h2>Emobilis </h2>
+
+<div class="container-fluid pg-5 bg-primary text-center">
+    <h2>django templating</h2>
+</div>
+<p>Welcome to Django class a step further this is my homepage</p>
+
+<script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+</body>
+</html>
